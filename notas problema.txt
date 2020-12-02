@@ -1,0 +1,19 @@
+En la gran mayoria de los casos las muestras estàn asociadas a un solo equipo, 
+sin embargo existe casos en los que no es así, las muestras están asociadas a
+múltiples equipos. Un ejemplo notorio de esto es lo que sucede en los reactores 
+biológicos, donde se analisan los resultados por linea.
+
+Un primer acercamiento a esto es tomar el punto de muestra (que es un punto común
+para los equipos asociados por linea) como un equipo aparte con su punto de 
+muestra. Así se toma en cuenta cada equipo por separado y por medio del punto de
+unión se analizan los resultados.
+
+Este enfoque no requiere de modificaciones al la base propuesta actual, sin embargo
+al no incluir información de las lineas y módulos puede que sea complicado realizar
+un balance. Tomemos el mismo ejemplo de los reactores biològicos y llevemoslo un
+paso más. Este proceso no se suele resolver por equipo, se resuelve por módulo.
+
+
+OJO: Como tratar las càmaras con compuertas. Estas pueden definir la cantidad de 
+flujo que avanza y si dos lineas se mezclan o no.
+
